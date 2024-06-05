@@ -1,0 +1,20 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    font-family: $paragraph;
+    font-weight: 600;
+    color: $midnight-blue;
+}
+
+input {
+    all: unset;
+    background-color: #fff;
+    border: 3px solid $midnight-blue;
+    border-radius: 1.875rem;
+    padding: 0.625rem 0.884375rem 0.5625rem 0.884375rem;
+
+    &::placeholder {
+        color: $midnight-blue;
+    }
+}

@@ -1,0 +1,14 @@
+.form-section {
+    display: flex;
+    flex-direction: column;
+    width: 29.5rem;
+    height: 32.3125rem;
+    padding: 2.5rem;
+    gap: 2.5rem;
+
+    h1 {
+        text-align: center;
+        font-family: $title;
+        text-transform: uppercase;
+    }
+}
