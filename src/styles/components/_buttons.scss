@@ -1,0 +1,27 @@
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8125rem;
+}
+
+.btn {
+  flex-grow: 1;
+  height: 3.4375rem;
+  border: 3px solid $midnight-blue;
+  border-radius: 0.9375rem;
+  font-family: $paragraph;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: $midnight-blue;
+}
+
+.btn-secondary {
+  background-color: #fff;
+  color: $midnight-blue;
+}

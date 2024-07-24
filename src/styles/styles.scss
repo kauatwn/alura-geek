@@ -1,0 +1,13 @@
+@import "base/variables";
+@import "base/reset";
+
+@import "layouts/common";
+@import "layouts/header";
+@import "layouts/main";
+@import "layouts/products-section";
+@import "layouts/form-section";
+@import "layouts/footer";
+
+@import "components/product-card";
+@import "components/form";
+@import "components/buttons.scss";

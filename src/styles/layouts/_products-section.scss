@@ -1,0 +1,12 @@
+.products-section {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    gap: 2.5rem;
+
+    h1 {
+        text-align: center;
+        font-family: $title;
+        text-transform: uppercase;
+    }
+}
